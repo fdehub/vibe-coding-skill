@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Coding"
+  short_description: "引导模糊产品想法，整理可验收的开发提示词；明确要求实现时继续推进"
+  default_prompt: "使用 $vibe-coding，把我的想法变成可验收的结果：先补齐必要需求与项目上下文，再按小任务实现和验证；如果我只要求提示词，就交付完整开发指令。"

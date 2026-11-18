@@ -1,0 +1,36 @@
+[
+  {
+    "id": "H03-original",
+    "kind": "regression_original_failure",
+    "user": "帮我整理一段公交到站看板的开发提示词，600字以内，只输出提示词。城市开放接口还没选，我也没有接口文档。需求是收藏线路、看到站时间和数据更新时间，断网时能看上次结果。不要问我接口叫什么，也别写代码。",
+    "max_chars": 600,
+    "expect_no_ask_back": true,
+    "content_hints": [
+      "收藏",
+      "到站时间",
+      "更新时间",
+      "断网"
+    ]
+  },
+  {
+    "id": "N01-new-sufficient-no-api",
+    "kind": "generalisation_new_case",
+    "user": "给我一段社区失物招领小程序的开发提示词，只要提示词，别写代码，500字内。功能是发布失物、按类别查找、留言联系、招领后标记已完成。后台和接口方案我还没定，也没有文档，技术细节你决定，别来问我要接口或文档。",
+    "max_chars": 500,
+    "expect_no_ask_back": true,
+    "content_hints": [
+      "发布",
+      "查找",
+      "留言",
+      "完成"
+    ]
+  },
+  {
+    "id": "N02-new-genuine-vague",
+    "kind": "generalisation_guard_not_overcorrected",
+    "user": "我想做个跟健身有关的小工具，但具体用途还没想好。先别直接给方案，只问我一个最关键的问题，帮我厘清用途。",
+    "max_chars": null,
+    "expect_no_ask_back": false,
+    "content_hints": []
+  }
+]
